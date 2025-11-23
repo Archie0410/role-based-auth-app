@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Health Auth</title>
+    <style>
+      :root { color-scheme: light dark; }
+      * { box-sizing: border-box; }
+      body { margin: 0; font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; background: #0b0e14; color: #eaeef3; }
+      a { color: inherit; }
+      .container { max-width: 960px; margin: 0 auto; padding: 24px; }
+      .card { background: #111622; border: 1px solid #1d2433; border-radius: 12px; padding: 20px; }
+      input, select { width: 100%; padding: 10px; margin: 6px 0 14px; border-radius: 8px; border: 1px solid #2a3446; background: #0b0e14; color: #eaeef3; }
+      label { font-size: 14px; color: #c5cfdb; }
+      button { background: #5b8cff; border: none; color: white; padding: 10px 16px; border-radius: 8px; cursor: pointer; }
+      button:disabled { opacity: 0.6; cursor: not-allowed; }
+      .row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+      .nav { display: flex; gap: 12px; align-items: center; justify-content: space-between; padding: 16px 0; }
+      .nav a { text-decoration: none; padding: 8px 12px; border-radius: 8px; }
+      .nav a.active { background: #1b2232; }
+      img.avatar { width: 120px; height: 120px; border-radius: 12px; object-fit: cover; border: 1px solid #2a3446; }
+      table { width: 100%; border-collapse: collapse; }
+      td { padding: 8px; border-bottom: 1px solid #1d2433; vertical-align: top; }
+      .error { color: #ff6b6b; margin-bottom: 10px; }
+      .success { color: #35d07f; margin-bottom: 10px; }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+  </html>
+
+
